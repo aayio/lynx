@@ -21,3 +21,6 @@ hugo.linux
 
 # Project specific files
 TODO
+
+# Ignore original compiled css that came with the theme
+assets/css/compiled/main.old.css
