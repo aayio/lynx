@@ -21,7 +21,7 @@
         />
       {{ end }}
       <h1 class="text-4xl font-extrabold dark:text-white">
-        {{ .Params.title | default .Site.Author.name | default .Site.Title | emojify }}<sub><span style="font-family: 'Crillee', Arial, sans-serif;">{{ .Site.Params.tld }}</span></sub>
+        {{ .Params.title | default .Site.Author.name | default .Site.Title | emojify }}<sub><span style="font-family: 'Crillee', sans-serif; font-size: 1.25rem;">{{ .Site.Params.tld }}</span></sub>
       </h1>
       {{ with .Site.Author.headline }}
         <h2 class="text-xl text-neutral-500 dark:text-neutral-400">
